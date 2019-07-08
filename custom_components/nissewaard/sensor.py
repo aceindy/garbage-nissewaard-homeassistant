@@ -68,7 +68,7 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
 ##########################################
 
 
-# Settings for Nissewaard Enschede:
+# Settings for Nissewaard:
 DEFAULT_BASEURL = 'https://wasteapi.2go-mobile.com/api/{}'
 DEFAULT_COMPANYCODE = '9dc25c8a-175a-4a41-b7a1-83f237a80b77'
 DEFAULT_HEADERS = {
