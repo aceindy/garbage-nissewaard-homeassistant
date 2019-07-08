@@ -1,4 +1,4 @@
-# Gemeente Nissewaard
+# Gemeente Nissewaard garbage collection in Home Assistant
 
 based on https://github.com/vloris/home-assistant/blob/master/custom_components/sensor/twentemilieu.py
 
