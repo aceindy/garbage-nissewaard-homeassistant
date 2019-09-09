@@ -26,3 +26,5 @@ It will create sensors for the next few future calendar events, called:
 and extra sensors:
 * sensor.nissewaard_vandaag
 * sensor.nissewaard_morgen
+
+<a href="https://www.buymeacoffee.com/IWZoirH6k" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
