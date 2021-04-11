@@ -2,6 +2,8 @@
   "domain": "nissewaard",
   "name": "Nissewaard garbage collection sensor",
   "documentation": "https://github.com/Martinvdm/garbage-nissewaard-homeassistant/blob/master/README.md",
+  "version": "1.0",
+  "issue_tracker": "https://github.com/Martinvdm/garbage-nissewaard-homeassistant/issues",
   "dependencies": [],
   "codeowners": ["@Martinvdm","@vloris"],
   "requirements": []
