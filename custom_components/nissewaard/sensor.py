@@ -27,11 +27,11 @@ CONF_POSTCODE = 'postcode'
 CONF_HOUSENUMBER = 'housenumber'
 
 SENSOR_TYPES = {
-    'today': ['Vandaag', 'mdi:recycle'],
-    'tomorrow': ['Morgen', 'mdi:recycle'],
-    'grey': ['Restafval', 'mdi:recycle'],
-    'paper': ['Papier en karton', 'mdi:recycle'],
-    'green': ['Groente, fruit- en tuinafval', 'mdi:recycle'],
+    'today': ['Today', 'mdi:recycle'],
+    'tomorrow': ['Tomorrow', 'mdi:recycle'],
+    'grey': ['Rest', 'mdi:recycle'],
+    'paper': ['Paper', 'mdi:recycle'],
+    'green': ['GFT', 'mdi:recycle'],
     'packages': ['PMD', 'mdi:recycle']
 }
 
@@ -243,7 +243,7 @@ class TodayWasteSensor(AbstractWasteSensor):
     @property
     def state(self):
         if self._schedule is None:
-            return 'Geen'
+            return 'None'
 
         return SENSOR_TYPES[self._schedule.trash_type.lower()][0]
 
@@ -260,6 +260,6 @@ class TomorrowWasteSensor(AbstractWasteSensor):
     @property
     def state(self):
         if self._schedule is None:
-            return 'Geen'
+            return 'None'
 
         return SENSOR_TYPES[self._schedule.trash_type.lower()][0]
